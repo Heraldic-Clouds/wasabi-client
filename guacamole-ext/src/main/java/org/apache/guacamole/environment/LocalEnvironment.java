@@ -59,6 +59,7 @@ public class LocalEnvironment implements Environment {
      * Array of all known protocol names.
      */
     private static final String[] KNOWN_PROTOCOLS = new String[] {
+        "game",
         "kubernetes",
         "rdp",
         "ssh",

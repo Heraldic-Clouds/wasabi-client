@@ -1,7 +1,7 @@
 {
-    "name": "Guacamole",
-    "short_name": "Guacamole",
-    "description": "Guacamole",
+    "name": "Wasabi",
+    "short_name": "Wasabi",
+    "description": "Wasabi",
     "start_url": ".",
     "display": "standalone",
     "icons": [

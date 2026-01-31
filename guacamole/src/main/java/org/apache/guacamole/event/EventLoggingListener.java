@@ -237,9 +237,9 @@ public class EventLoggingListener implements Listener {
 
         // Application startup/shutdown
         else if (event instanceof ApplicationStartedEvent)
-            logger.info("The Apache Guacamole web application has started.");
+            logger.info("The Wasabi web application has started.");
         else if (event instanceof ApplicationShutdownEvent)
-            logger.info("The Apache Guacamole web application has shut down.");
+            logger.info("The Wasabi web application has shut down.");
 
         // Unknown events
         else

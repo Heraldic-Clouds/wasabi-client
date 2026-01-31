@@ -1,0 +1,83 @@
+{
+    "name"  : "game",
+    "connectionForms" : [
+
+        {
+            "name"  : "display",
+            "fields" : [
+                {
+                    "name"  : "display",
+                    "type"  : "TEXT"
+                },
+                {
+                    "name"  : "width",
+                    "type"  : "NUMERIC"
+                },
+                {
+                    "name"  : "height",
+                    "type"  : "NUMERIC"
+                }
+            ]
+        },
+
+        {
+            "name"  : "encoding",
+            "fields" : [
+                {
+                    "name"    : "codec",
+                    "type"    : "ENUM",
+                    "options" : [ "h264", "hevc" ]
+                },
+                {
+                    "name"    : "preset",
+                    "type"    : "ENUM",
+                    "options" : [ "p1", "p2", "p3", "p4", "p5", "p6", "p7" ]
+                },
+                {
+                    "name"  : "framerate",
+                    "type"  : "NUMERIC"
+                },
+                {
+                    "name"  : "bitrate",
+                    "type"  : "NUMERIC"
+                },
+                {
+                    "name"    : "cbr",
+                    "type"    : "BOOLEAN",
+                    "options" : [ "true" ]
+                },
+                {
+                    "name"    : "force-lossless",
+                    "type"    : "BOOLEAN",
+                    "options" : [ "true" ]
+                }
+            ]
+        },
+
+        {
+            "name"  : "behavior",
+            "fields" : [
+                {
+                    "name"    : "read-only",
+                    "type"    : "BOOLEAN",
+                    "options" : [ "true" ]
+                }
+            ]
+        }
+
+    ],
+    "sharingProfileForms" : [
+
+        {
+            "name"  : "display",
+            "fields" : [
+                {
+                    "name"    : "read-only",
+                    "type"    : "BOOLEAN",
+                    "options" : [ "true" ]
+                }
+            ]
+        }
+
+    ]
+}
